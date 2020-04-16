@@ -23,6 +23,7 @@ public class WarmUp6 {
         for (int i = 0; i < newList.size(); i ++){
             if(newList.get(i).length() != a || newList.get(i).length() != b ){
                 newList.remove(newList.get(i));
+                //newList.remove(i);
             }
             bw.write(newList.get(i));
             bw.newLine();
